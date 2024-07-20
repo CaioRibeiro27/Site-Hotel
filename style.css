@@ -1,0 +1,27 @@
+body{
+    background-image: none;
+}
+
+.title{
+    text-align: center;
+    color: blue;
+    font-size: 80px;
+}
+
+#title{
+    background-color:aquamarine;
+    height: 100px;
+}
+
+#tela{
+    background-color: gray;
+    height: 50%;
+}
+
+.quarto{
+    margin-left: 25%;
+    text-align: center;
+    background-color: darkkhaki;
+    height: 100px;
+    width: 50%;
+}
