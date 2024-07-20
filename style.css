@@ -6,11 +6,17 @@ body{
     text-align: center;
     color: blue;
     font-size: 80px;
+    background-image: url(./imagens/praia.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100px;
+    margin-top: 0;
+    border: solid 10px rgb(54, 154, 179)
 }
 
 #title{
-    background-color:aquamarine;
-    height: 100px;
+    height: 20px;
 }
 
 #tela{
@@ -21,7 +27,7 @@ body{
 .quarto{
     margin-left: 25%;
     text-align: center;
-    background-color: darkkhaki;
+    background-color: rgb(189, 183, 107);
     height: 100px;
     width: 50%;
 }
