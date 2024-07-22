@@ -14,30 +14,16 @@
     margin-top: 0;
 }
 
-.quarto{
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 600px;
-}
-
 #box{
     background-color: rgb(16, 238, 238);
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 20px;
-}
-
-#lista1{
-    height: 100px;
-    width: 250px;
-    text-align: left;
-    font-weight: bolder;
-    font-size: 10px;
 }
 
 #q1{
     background-color: rgb(189, 183, 107);
-    height: 250px;
+    height: 300px;
     width: 25%;
     font-size: 20px;
     font-weight: bolder;
@@ -45,7 +31,7 @@
 
 #q2{
     background-color: rgb(189, 183, 107);
-    height: 250px;
+    height: 300px;
     width: 25%;
     font-size: 20px;
     font-weight: bolder;
@@ -53,7 +39,7 @@
 
 #q3{
     background-color: rgb(189, 183, 107);
-    height: 250px;
+    height: 300px;
     width: 25%;
     font-size: 20px;
     font-weight: bolder;
