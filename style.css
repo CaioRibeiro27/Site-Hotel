@@ -1,5 +1,5 @@
-body{
-    background-image: none;
+#inicio{
+    background-color: aquamarine;
 }
 
 .title{
@@ -12,22 +12,49 @@ body{
     background-size: cover;
     height: 100px;
     margin-top: 0;
-    border: solid 10px rgb(54, 154, 179)
-}
-
-#title{
-    height: 20px;
-}
-
-#tela{
-    background-color: gray;
-    height: 50%;
 }
 
 .quarto{
-    margin-left: 25%;
     text-align: center;
-    background-color: rgb(189, 183, 107);
+    margin-left: 300px;
+    margin-right: 600px;
+}
+
+#box{
+    background-color: rgb(16, 238, 238);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+#lista1{
     height: 100px;
-    width: 50%;
+    width: 250px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+#q1{
+    background-color: rgb(189, 183, 107);
+    height: 250px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#q2{
+    background-color: rgb(189, 183, 107);
+    height: 250px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#q3{
+    background-color: rgb(189, 183, 107);
+    height: 250px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bolder;
 }
