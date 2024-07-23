@@ -5,7 +5,7 @@
 .title {
     text-align: center;
     color: blue;
-    font-size: 5vw; /* Ajuste flexível para diferentes tamanhos de tela */
+    font-size: 5vw;
     background-image: url(./imagens/praia.jpeg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -20,7 +20,7 @@
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Ajuste flexível para diferentes tamanhos de tela */
+    justify-content: space-around;
 }
 
 .box {
@@ -30,8 +30,8 @@
     padding: 20px;
     box-sizing: border-box;
     margin: 10px;
-    width: calc(100% - 40px); /* Ajuste flexível para diferentes tamanhos de tela */
-    max-width: 300px; /* Limite de largura máxima */
+    width: calc(100% - 40px);
+    max-width: 300px; 
     text-align: center;
 }
 
@@ -54,16 +54,36 @@ a {
     color: whitesmoke;
 }
 
-/* Media query para telas médias */
 @media (min-width: 600px) {
     .box {
         width: 45%;
     }
 }
 
-/* Media query para telas grandes */
 @media (min-width: 900px) {
     .box {
         width: 30%;
     }
+}
+
+.quartos{
+    background-color: aqua;
+}
+
+#titleChale1{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: 100;
+}
+
+.infoChale1{
+    margin: 20px;
+}
+
+.infoChale1 img{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
 }
