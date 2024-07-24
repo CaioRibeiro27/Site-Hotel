@@ -1,12 +1,13 @@
-#inicio {
-    background-color: aquamarine;
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: gainsboro;
 }
 
 .title {
     text-align: center;
-    color: blue;
+    color: rgb(1, 1, 100);
     font-size: 5vw;
-    background-image: url(./imagens/praia.jpeg);
+    background-image: url(./imagens/nuvensFundo.jpeg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -15,12 +16,13 @@
 }
 
 #box {
-    background-color: rgb(16, 238, 238);
+    background-color: hsl(0, 0%, 100%) ;
     margin: 10px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-radius: 5%;
 }
 
 .box {
@@ -33,6 +35,7 @@
     width: calc(100% - 40px);
     max-width: 300px; 
     text-align: center;
+    border-radius: 5%;
 }
 
 .botao {
@@ -44,6 +47,7 @@
     width: auto;
     display: inline-block;
     margin-top: 10px;
+    margin: right;
 }
 
 .botao:hover {
@@ -66,10 +70,6 @@ a {
     }
 }
 
-.quartos{
-    background-color: aqua;
-}
-
 #titleChale1{
     text-align: center;
     font-weight: 900;
@@ -78,11 +78,61 @@ a {
 }
 
 .infoChale1{
-    margin: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: rgb(51, 117, 117);
 }
 
 .infoChale1 img{
-    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+#bottonBack{
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+
+#titleChale2{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: 100;
+}
+
+.infoChale2{
+    margin-right: 25%;
+    margin-left: 25%;
+    float: right;
+    background-color: aquamarine;
+}
+
+.infoChale2 img{
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+
+#titleChale3{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: 100;
+}
+
+.infoChale3{
+    margin-right: 25%;
+    margin-left: 25%;
+    float: right;
+    background-color: aquamarine;
+}
+
+.infoChale3 img{
     margin-right: 20px;
     width: 200px;
     height: auto;
