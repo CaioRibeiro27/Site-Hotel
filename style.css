@@ -19,11 +19,12 @@ body{
 
 .bottonLogin{
     background-color: antiquewhite;
+    float: right;
     color: black;
     display: inline-block;
     height: 25%;
     padding: 5px;
-    margin-left: 78%;
+    margin: solid 2px black ;
 }
 
 #box {

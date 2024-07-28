@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        #title{
+            color: blue;
+            margin-top: 50px;
+        }
+
+        form{
+            text-align: center;
+        }
+        #botao {
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            width: auto;
+            display: inline-block;
+            margin-top: 10px;
+            margin: right;
+        }
+    </style>
+</head>
+<body>
+    <form>
+
+        <h2 id="title">Login do Usuário</h2>
+
+        <input type="text" placeholder="Login" id="login">
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" onclick="logar()" return false>
+
+    </form>
+
+    <a id="bottonBack"href="index.html" id="botao">Voltar</a>
+
+    <script> src="./script.js"</script>
+</body>
+</html>
